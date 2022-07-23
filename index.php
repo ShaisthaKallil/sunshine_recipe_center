@@ -71,7 +71,7 @@
                         include("main.inc.php");
                   else{
                         $content = $_REQUEST['content'];
-                        $nextpage = $content . ".inc.php";
+                        $nextpage = $content.".inc.php";
                         include($nextpage);
                   }
             ?>

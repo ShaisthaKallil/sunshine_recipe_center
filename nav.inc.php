@@ -1,4 +1,4 @@
-
+<hr><br>
 			<ul class = nav-bar>
 
 			    <li><a href = "index.php"><h3>Home</h3></li>
