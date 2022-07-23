@@ -146,25 +146,17 @@ header{
 }*/
 
 
-
-/*::::review: :::*/;
-
-.feedback{
-	width: 100%;
-	height: 500px;
-	text-align: center;
+#main,#news{
+	padding:100px 0;
+	background-color: #fefaf0;
 }
 
-.feed-contain{
-	width: 80%;
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
-}
+
+/*::::review: :::*/
 
 .item img{
 	width: 300px;
-	transition: transform .4s; 
+	transition: transform .4s;
 }
 
 p img:hover{

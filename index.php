@@ -15,19 +15,7 @@
 	<div class = "container">
 
 		<nav>
-
-			<ul class = nav-bar>
-
-			    <li><a href = "#"><h3>Home</h3></li>
-
-			    <li><a href = "#"><h3>Menu</h3></li>
-
-				<li><a href = "#"><h3>Location</h3></li>
-
-				<li><a href = "#"><h3>Contact Us</h3></a></li>
-
-			</ul>
-
+        <?php include("nav.inc.php"); ?>
 	 </nav>
 
 
@@ -74,6 +62,27 @@
 		  </div>
 
 		</section><!-- End of gallery-->
+
+    <!-- Main body-dynamic content area-->
+    <section id ="main"style="width:80%;margin:0 auto;">
+
+            <?php
+                  if (!isset($_REQUEST['content']))
+                        include("main.inc.php");
+                  else{
+                        $content = $_REQUEST['content'];
+                        $nextpage = $content . ".inc.php";
+                        include($nextpage);
+                  }
+            ?>
+
+    </section>
+
+    <section id = "news">
+
+          <?php include("news.inc.php"); ?>
+  </section>
+
 
     <footer>
           <?php include("footer.inc.php"); ?>
