@@ -1,3 +1,7 @@
+<?php //Create session cookie in the client browser, so web application(all pages) has access to session data
+     session_start();
+     ?>
+
 <!DOCTYPE html>
 <html>
 <head>
