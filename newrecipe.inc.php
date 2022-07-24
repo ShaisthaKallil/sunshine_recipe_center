@@ -18,7 +18,7 @@
 
   <p> Directions :</p> <br>
 
-   <textarea name = "directions" rows = "80" cols = "50"></textarea><br><br>
+   <textarea name = "directions" rows = "10" cols = "50"></textarea><br><br>
 
    <input type = "submit" value = "Post Recipe" style = "
             background-color: orange;

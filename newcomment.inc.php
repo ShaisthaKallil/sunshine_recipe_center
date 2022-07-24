@@ -1,5 +1,5 @@
 <hr style="color:orange;opacity:0.3;width:6%;margin:0 auto;border:8px dotted;border-style:none none dotted;"><br>
-<h2 class="tag-line" style="text-align:center;">Post Recipe</h2><br>
+<h2 class="tag-line" style="text-align:center;">Enter Comments</h2><br>
 <?php $recipeid=$_GET['id'];
 
 echo "<form action=\"index.php\" method=\"post\">";
