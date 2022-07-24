@@ -1,4 +1,4 @@
-        <hr style="color:orange;opacity:0.3;width:5%;margin:0 auto;border:8px dotted;border-style:none none dotted;"><br>
+        <br><hr style="color:orange;opacity:0.3;width:5%;margin:0 auto;border:8px dotted;border-style:none none dotted;"><br>
         <div class = "news-text" style="width:80%;margin:0 auto;line-height:2.5;">
 
          <h2 class="tag-line" style="text-align:center;">Latest Cooking News</h2>
