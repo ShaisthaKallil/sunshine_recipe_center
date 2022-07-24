@@ -31,4 +31,4 @@
   <!-- Sends content value to index.php where it will next send data to addrecipe.inc.php -->
    <input type = "hidden" value = "addrecipe" name = "content">
 
-</form>
+ </form>

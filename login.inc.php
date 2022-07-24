@@ -6,7 +6,7 @@
   <p>Please login to post new recipes and comments</p><br><br>
 
   <p>User Name:</p>
-  <input type = "text" size="40" name="username"><br><br>
+  <input type = "text" size="40" name="userid"><br><br>
 
   <p>Password:</p>
   <input type="password" name="password"><br><br>
